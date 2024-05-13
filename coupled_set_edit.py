@@ -36,7 +36,7 @@ def refine_mesh_local(mesh, rad, center, max_level):
 
 physical_parameters_dict = {
     "dy": 0.6 ,
-    "max_level": 4,#also can test ,changed to 3
+    "max_level": 6,#also can test ,changed to 3
     "Nx": 4000,
     "Ny": 7000,
     "dt": 5E-2,

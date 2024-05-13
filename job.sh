@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --account=def-oforion
-#SBATCH --nodes=2                     # Request 1 node
-#SBATCH --ntasks-per-node=64         # Total number of tasks per node
-#SBATCH --mem=245G                    # Total memory per node
+#SBATCH --nodes=1                     # Request 1 node
+#SBATCH --ntasks-per-node=20         # Total number of tasks per node
+#SBATCH --mem=185G                    # Total memory per node
 #SBATCH --time=7-00:00                # Time limit days-hours:minutes
 
 # Load the required modules
